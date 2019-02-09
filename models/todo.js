@@ -4,7 +4,12 @@
 
 module.exports = function(sequelize, DataTypes){
 let toDo = sequelize.define('toDo',{
-    text: DataTypes.STRING,
+    text: {
+        type: DataTypes.STRING,
+        validate: {
+            notEmpty: true
+        },
+    },
     complete: DataTypes.BOOLEAN
 });
 return toDo;
