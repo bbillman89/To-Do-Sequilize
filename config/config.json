@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "Mount14!",
+    "password": "yamaha1600",
     "database": "todolist",
     "host": "127.0.0.1",
     "dialect": "mysql"

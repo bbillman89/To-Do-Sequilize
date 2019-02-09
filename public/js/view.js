@@ -126,7 +126,7 @@ $(document).ready(function() {
       complete: false
     };
 
-    $.post("/api/todos", todo, getTodos);
+    $.post("/api/new", todo, getTodos);
     $newItemInput.val("");
   }
 });

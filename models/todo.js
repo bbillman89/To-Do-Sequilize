@@ -3,7 +3,7 @@
 // let sequelize = require('../config/config.json');
 
 module.exports = function(sequelize, DataTypes){
-let toDo = sequelize.define('toDoList',{
+let toDo = sequelize.define('toDo',{
     text: DataTypes.STRING,
     complete: DataTypes.BOOLEAN
 });
