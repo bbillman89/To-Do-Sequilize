@@ -1,7 +1,7 @@
 # To-Do-Sequilize
 * Folder: `07-ORM-To-Sequelize/Unsolved`
 
-#UPDATE CONNECTION PASSWORD
+# UPDATE CONNECTION PASSWORD
 config.json
 
 * INSTRUCTIONS:
